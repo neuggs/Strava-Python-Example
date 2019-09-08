@@ -7,10 +7,11 @@ import numpy
 import pandas as pd
 import datetime
 
-client_id = '31196'
-athlete_id = '721568'
-access_token_site = 'a2e9dc9caf7ebe57e8f60b7994052e27b9b929bd'
-secret = '628d8f82fecf138a30c149b5b9b21d4a12419e47'
+# Update with your Strava info
+client_id = '*****'
+athlete_id = '*******'
+access_token_site = '*****************************'
+secret = '*************************************'
 
 port = 5000
 url = 'http://localhost:%d/authorized' % port
